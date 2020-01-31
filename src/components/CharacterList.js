@@ -24,9 +24,11 @@ export default function CharacterList() {
   return (
     <section className="character-list">
       <SearchForm characters={characters} setCharacters={setCharacters} searchResults={searchResults} setSearchResults={setSearchResults} setSearched={setSearched} />
-      {(!searched ? characters : searchResults).map(character => {
-        return <CharacterCard key={character.id} character={character}/>
-      })}
+      <div className="container">
+        {(!searched ? characters : searchResults).map(character => {
+          return <CharacterCard key={character.id} character={character}/>
+        })}
+      </div>
     </section>
-  );
+  ); 
 }
