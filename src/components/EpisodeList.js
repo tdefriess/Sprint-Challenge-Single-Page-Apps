@@ -9,7 +9,7 @@ export default function EpisodeList() {
         Axios
             .get("https://rickandmortyapi.com/api/episode/")
             .then(res => {
-                console.log(res);
+                // console.log(res);
                 const episodeList = res.data.results;
                 setEpisodes(episodeList);
             })

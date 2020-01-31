@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function SearchForm(props) {
   const [searchTerm, setSearchTerm] = useState("");  
-  console.log("character props", props.characters);
+  // console.log("character props", props.characters);
 
   useEffect(() => {
     const results = props.characters.filter(character => character.name.toLowerCase().includes(searchTerm.toLowerCase()))

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export default function CharacterCard(props) {
-  console.log("character props", props)
+  // console.log("character props", props)
 
   const Card = styled.div`
     text-align: center;
