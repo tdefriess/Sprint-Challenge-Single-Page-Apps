@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing allows us to build single page React applications. This means that as the user uses links to navigate the app, the page does not need to reload and "flash," which creates a smoother experience. Another benefit is that the user only needs to load our app once and our components are mounted and unmounted as needed. Finally, using React Router allows the user to use the forward and back buttons as natural within our app.
 
 ## Project Set Up
 
